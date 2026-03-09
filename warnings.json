@@ -1,0 +1,22 @@
+[
+    {
+        "username": "admin",
+        "password": "$2y$10$IwmLNWG75gZDmZ94VnjPr..FQMI1psf5Xh9OAwEKHuUk64ycdBlG2",
+        "role": "admin"
+    },
+    {
+        "username": "user1",
+        "password": "$2y$10$xS9ykL6FeaM1PigzZ3m1quJXN2ZTtz11\/IEIvC2U7V\/m4Dk2bEej.",
+        "role": "user"
+    },
+    {
+        "username": "user",
+        "password": "$2y$10$yFzKf8H2KHdgLiP8i8aTNOf0M2j36UXJLtW5AenUID0x6VZ6eo8cO",
+        "role": "user"
+    },
+    {
+        "username": "bereket shegye",
+        "password": "$2y$10$gZdHRtjB5VaedwPBciWh3OkcqumpjU5En9g.RYrdcEAf.uB2IXmpC",
+        "role": "user"
+    }
+]

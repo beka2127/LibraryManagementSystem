@@ -1,0 +1,27 @@
+:root {
+    --dark-sidebar: #2c3e50;
+    --light-bg: #f4f7f6;
+    --accent-blue: #3498db;
+    --white: #ffffff;
+}
+
+body { margin: 0; font-family: 'Segoe UI', sans-serif; display: flex; background: var(--light-bg); min-height: 100vh; }
+
+.sidebar { width: 250px; background: var(--dark-sidebar); color: white; height: 100vh; position: fixed; }
+.sidebar h2 { text-align: center; padding: 20px 0; border-bottom: 1px solid #3e4f5f; margin: 0; }
+.sidebar a { display: block; color: #bdc3c7; padding: 15px 25px; text-decoration: none; transition: 0.3s; }
+.sidebar a:hover, .sidebar a.active { background: #34495e; color: white; border-left: 5px solid var(--accent-blue); }
+
+.main-content { flex-direction: column;margin-left: 250px; width: calc(100% - 250px); padding: 40px; box-sizing: border-box; }
+.card { background: var(--white); padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 25px; width : 100% ;}
+
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; padding: 12px; background: #f9f9f9; color: #666; font-size: 12px; text-transform: uppercase; }
+td { padding: 15px; border-bottom: 1px solid #eee; }
+
+input, select { padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 10px; }
+.btn { padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; text-decoration: none; display: inline-block; transition: 0.2s; }
+.btn-blue { background: var(--accent-blue); color: white; }
+.btn-red { color: #e74c3c; border: 1px solid #e74c3c; background: transparent; }
+.btn-red:hover { background: #e74c3c; color: white; }
+.alert-msg { background: #fdeaea; color: #e74c3c; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid #e74c3c; }
